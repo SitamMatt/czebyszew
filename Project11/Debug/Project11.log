@@ -1,0 +1,3 @@
+﻿  Źródło.cpp
+c:\users\isseii\source\repos\project11\project11\źródło.cpp(21): warning C4244: "inicjowanie": konwersja z "double" do "unsigned int", możliwa utrata danych
+  Project11.vcxproj -> C:\Users\Isseii\source\repos\Project11\Debug\Project11.exe
