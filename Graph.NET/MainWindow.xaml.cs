@@ -23,6 +23,10 @@ namespace Graph.NET
         public MainWindow()
         {
             InitializeComponent();
+            Chart = (Chart)FindName("graph");
         }
+
+        public Chart Chart { get; set; }
+
     }
 }
