@@ -250,7 +250,7 @@ int main()
 		cout << endl << "pliki zostaly utworzone";
 		cout << endl;
 		
-		ShellExecute(NULL, "open", R"(D:\Dev\cpp\Interpolacja\Graph.NET\bin\Debug\Graph.NET.exe)", R"(-i D:\Dev\cpp\Interpolacja\Project11\interpolacja.txt -f D:\Dev\cpp\Interpolacja\Project11\funkcja.txt -n D:\Dev\cpp\Interpolacja\Project11\czebyszew.txt)", NULL, SW_SHOWDEFAULT);
+		ShellExecute(NULL, "open", R"(.\Graph.NET.exe)", R"(-i .\interpolacja.txt -f .\funkcja.txt -n .\czebyszew.txt)", NULL, SW_SHOWDEFAULT);
 		cout << "powtorzyc ? y/n : "; cin >> yes;
 	}
 	return 0;
